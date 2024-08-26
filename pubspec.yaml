@@ -12,13 +12,13 @@ dependencies:
     sdk: flutter
 
   # # Utility Packages
-  # http: ^1.1.0
-  # intl: ^0.18.1
-  # logger: ^2.0.1
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
   # lottie: ^2.7.0
   # shimmer: ^3.0.0
   # image_picker: ^1.0.8
-  # url_launcher: ^6.1.12
+  url_launcher: ^6.1.12
   # connectivity_plus: ^5.0.1
   # flutter_native_splash: ^2.3.2
   # smooth_page_indicator: ^1.1.0
@@ -29,7 +29,8 @@ dependencies:
 
   # State Management
   get: ^4.6.5
-  # get_storage: ^2.1.1
+  # Supports Android, iOS, Web, Mac, Linux, and fuchsia and Windows**.
+  get_storage: ^2.1.1
 
   # # Product Specific
   # readmore: ^2.2.0
