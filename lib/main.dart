@@ -1,25 +1,13 @@
 import 'package:flutter/material.dart';
 
-import '/utils/theme/theme.dart';
+import 'app.dart';
 
 void main() {
+  //Todo: Add Widgets Binding
+  //Todo: Add Init Local Storage
+  //Todo: Add Await Native Splash Screen
+  //Todo: Initilize Firebase
+  //Todo: Initilize Authentication
+
   runApp(const App());
-}
-
-class App extends StatelessWidget {
-  const App({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      themeMode: ThemeMode.system, // Use the system theme
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
 }
