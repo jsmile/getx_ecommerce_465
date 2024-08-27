@@ -5,6 +5,7 @@ version: 0.1.0
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
+  # sdk: '>=3.0.6 <4.0.0'
 
 #--------------- PACKAGES ------------------#
 dependencies:
@@ -21,7 +22,7 @@ dependencies:
   url_launcher: ^6.1.12
   # connectivity_plus: ^5.0.1
   flutter_native_splash: ^2.3.2
-  # smooth_page_indicator: ^1.1.0
+  smooth_page_indicator: ^1.1.0
 
   # Icons
   iconsax: ^0.0.8
@@ -52,6 +53,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  # flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
@@ -62,12 +64,12 @@ flutter:
     - assets/icons/brands/
     - assets/icons/categories/
     - assets/icons/payment_methods/
+    - assets/images/on_boarding_images/
     - assets/images/content/
     - assets/images/banners/
     - assets/images/reviews/
     - assets/images/products/
     - assets/images/animations/
-    - assets/images/on_boarding_images/
 
   #--------------- LOCAL FONTS ------------------#
   fonts:
