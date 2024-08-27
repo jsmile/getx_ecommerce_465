@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:getx_ecommerce_465/features/authentication/secreens.onboarding/onboarding_screen.dart';
 
 import 'utils/theme/theme.dart';
 
@@ -7,15 +9,12 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system, // Use the system theme
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      home: OnboardingScreen(),
     );
   }
 }
