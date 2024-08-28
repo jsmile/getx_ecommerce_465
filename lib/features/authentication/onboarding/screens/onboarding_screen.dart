@@ -9,7 +9,7 @@ import 'widgets/onboarding_next_button.dart';
 import 'widgets/onboarding_page.dart';
 import 'widgets/onboarding_skip.dart';
 
-import '/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import '../controllers/onboarding_controller.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

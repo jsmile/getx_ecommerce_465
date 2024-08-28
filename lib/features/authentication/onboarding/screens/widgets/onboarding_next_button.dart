@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:getx_ecommerce_465/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:getx_ecommerce_465/utils/constants/colors.dart';
-import 'package:getx_ecommerce_465/utils/constants/sizes.dart';
-import 'package:getx_ecommerce_465/utils/device/device_utility.dart';
-import 'package:getx_ecommerce_465/utils/helpers/helper_functions.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '/utils/constants/colors.dart';
+import '/utils/constants/sizes.dart';
+import '/utils/device/device_utility.dart';
+import '/utils/helpers/helper_functions.dart';
+
+import '/features/authentication/onboarding/controllers/onboarding_controller.dart';
 
 class OnboardingNextButton extends StatelessWidget {
   const OnboardingNextButton({

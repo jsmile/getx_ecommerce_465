@@ -6,7 +6,7 @@ import '/utils/constants/sizes.dart';
 import '/utils/device/device_utility.dart';
 import '/utils/helpers/helper_functions.dart';
 
-import '/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import '/features/authentication/onboarding/controllers/onboarding_controller.dart';
 
 class OnboardingDotNavigation extends StatelessWidget {
   const OnboardingDotNavigation({
