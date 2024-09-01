@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_ecommerce_465/features/authentication/onboarding/screens/onboarding_screen.dart';
+
+import '/features/authentication/onboarding/screens/onboarding_screen.dart';
 
 import 'utils/theme/theme.dart';
 
